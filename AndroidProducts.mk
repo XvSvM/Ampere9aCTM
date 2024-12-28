@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_MTS_TV.mk
+    $(LOCAL_DIR)/twrp_SDMC_DV8235.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_MTS_TV-user \
-    twrp_MTS_TV-userdebug \
-    twrp_MTS_TV-eng
+    twrp_SDMC_DV8235-user \
+    twrp_SDMC_DV8235-userdebug \
+    twrp_SDMC_DV8235-eng
