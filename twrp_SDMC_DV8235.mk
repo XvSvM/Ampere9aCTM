@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/MTC/MTS_TV/device.mk)
 
 PRODUCT_DEVICE := SDMC_DV8235
-PRODUCT_NAME := twrp_MTS_TV
+PRODUCT_NAME := twrp_SDMC_DV8235
 PRODUCT_BRAND := MTC
 PRODUCT_MODEL := DV8235
 PRODUCT_MANUFACTURER := SDMC
