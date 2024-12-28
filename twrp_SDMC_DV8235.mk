@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from ampere device
-$(call inherit-product, device/MTC/MTS_TV/device.mk)
+$(call inherit-product, device/MTC/SDMC_DV8235/device.mk)
 
 PRODUCT_DEVICE := SDMC_DV8235
 PRODUCT_NAME := twrp_SDMC_DV8235
