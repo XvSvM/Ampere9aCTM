@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/MTC/MTS_TV
+LOCAL_PATH := device/MTC/SDMC_DV8235
