@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=MTS_TV
+DEVICE=SDMC_DV8235
 VENDOR=SDMC
 
 # Load extract_utils and do some sanity checks
