@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_MTS_TV-user
-add_lunch_combo twrp_MTS_TV-userdebug
-add_lunch_combo twrp_MTS_TV-eng
+add_lunch_combo twrp_SDMC_DV8235-user
+add_lunch_combo twrp_SDMC_DV8235-userdebug
+add_lunch_combo twrp_SDMC_DV8235-eng
