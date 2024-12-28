@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/MTC/MTS_TV
+DEVICE_PATH := device/MTC/SDMC_DV8235
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -24,7 +24,7 @@ TARGET_USES_64_BIT_BINDER := true
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := MTC_TV
+TARGET_BOOTLOADER_BOARD_NAME := SDMC_DV8235
 TARGET_NO_BOOTLOADER := true
 
 # Display
