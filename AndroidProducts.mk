@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_SDMC_DV8235.mk
+    $(LOCAL_DIR)/omni_ampere.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_SDMC_DV8235-user \
-    twrp_SDMC_DV8235-userdebug \
-    twrp_SDMC_DV8235-eng
+    omni_ampere-user \
+    omni_ampere-userdebug \
+    omni_ampere-eng
