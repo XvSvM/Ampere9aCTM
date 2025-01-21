@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo twrp_SDMC_DV8235-user
-add_lunch_combo twrp_SDMC_DV8235-userdebug
-add_lunch_combo twrp_SDMC_DV8235-eng
+add_lunch_combo omni_ampere-user
+add_lunch_combo omni_ampere-userdebug
+add_lunch_combo omni_ampere-eng
