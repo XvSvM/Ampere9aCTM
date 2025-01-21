@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=SDMC_DV8235
-VENDOR=SDMC
+DEVICE=ampere
+VENDOR=droidlogic
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
