@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/droidlogic/ampere/device.mk)
 
 PRODUCT_DEVICE := ampere
-PRODUCT_NAME := omni_ampere
+PRODUCT_NAME := twrp_ampere
 PRODUCT_BRAND := Droidlogic
 PRODUCT_MODEL := ampere
 PRODUCT_MANUFACTURER := droidlogic
