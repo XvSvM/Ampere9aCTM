@@ -62,6 +62,9 @@ subsystem sound
 # gpu driver for adreno200 is globally accessible
 /dev/kgsl                 0666   root       root
 
+# conf partition
+/dev/block/conf           0666   root       root
+
 # kms driver for drm based gpu
 /dev/dri/*                0666   root       graphics
 
