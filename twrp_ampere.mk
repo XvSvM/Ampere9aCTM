@@ -9,20 +9,20 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ampere device
 $(call inherit-product, device/droidlogic/ampere/device.mk)
 
 PRODUCT_DEVICE := ampere
-PRODUCT_NAME := omni_ampere
-PRODUCT_BRAND := Amlogic
+PRODUCT_NAME := twrp_ampere
+PRODUCT_BRAND := Droidlogic
 PRODUCT_MODEL := ampere
 PRODUCT_MANUFACTURER := droidlogic
 
 PRODUCT_GMS_CLIENTID_BASE := android-droidlogic
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="ampere-userdebug 9 PPR1.180610.011 20200307 test-keys"
+    PRIVATE_BUILD_DESC="ampere-user 9 PPR1.180610.011 20210514 test-keys"
 
-BUILD_FINGERPRINT := Amlogic/ampere/ampere:9/PPR1.180610.011/20200307:userdebug/test-keys
+BUILD_FINGERPRINT := Droidlogic/ampere/ampere:9/PPR1.180610.011/20210514:user/test-keys
