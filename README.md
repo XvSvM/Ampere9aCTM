@@ -1,4 +1,4 @@
-# Android device tree for Droidlogic ampere (ampere)
+# Android device tree for Amlogic ampere (ampere)
 
 ```
 #
