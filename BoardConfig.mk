@@ -101,3 +101,4 @@ TW_BRIGHTNESS_PATH := "/sys/devices/platform/gpioleds/leds/sys_led/brightness"
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_CRYPTO := true
 LZMA_RAMDISK_TARGETS := recovery
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
