@@ -87,3 +87,6 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 LZMA_RAMDISK_TARGETS := recovery
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+TARGET_RECOVERY_FORCE_PIXEL_FORMAT := "RGB_565"
+TW_BRIGHTNESS_PATH := "/sys/devices/platform/gpioleds/leds/sys_led/brightness"
+TW_INCLUDE_CRYPTO := true
